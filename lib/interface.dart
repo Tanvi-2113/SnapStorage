@@ -82,10 +82,10 @@
 //     );
 //   }
 
-  Future<void> _deleteImage(String imagePath) async {
-    await DatabaseHelper.instance.delete(imagePath);
-    setState(() {});
-  }
+  // Future<void> _deleteImage(String imagePath) async {
+  //   await DatabaseHelper.instance.delete(imagePath);
+  //   setState(() {});
+  // }
 
 import 'package:SnapStore/databse.dart';
 import 'package:flutter/material.dart';
